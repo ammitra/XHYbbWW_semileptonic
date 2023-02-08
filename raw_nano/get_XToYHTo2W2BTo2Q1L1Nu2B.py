@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-rom TIMBER.Tools.Common import ExecuteCmd
-=======
 from TIMBER.Tools.Common import ExecuteCmd
->>>>>>> Stashed changes
 import sys
 
 # dictionary containing the year as keys, with each value being another dictionary of {sampleName: DAS location}
@@ -56,7 +52,7 @@ das = {
         'SingleMuonDataF': '/SingleMuon/Run2016F-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD'
     },
     '17': {
-	'XHY': '/NMSSM_XToYHTo2W2BTo2Q1L1Nu2B_MX-1000_MY-100_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM',
+	'XHY': '/NMSSM_XToYHTo2W2BTo2Q1L1Nu2B_MX-{}_MY-{}_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM',
         'ttbar-allhad': '/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM',
         'ttbar-semilep': '/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM',
         'QCDHT700': '/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM',
@@ -83,7 +79,7 @@ das = {
         'SingleMuonDataF': '/SingleMuon/Run2017E-UL2017_MiniAODv2_NanoAODv9-v1/NANOAOD'
     },
     '18': {
-	'XHY': '/NMSSM_XToYHTo2W2BTo2Q1L1Nu2B_MX-1000_MY-125_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM',
+	'XHY': '/NMSSM_XToYHTo2W2BTo2Q1L1Nu2B_MX-{}_MY-{}_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM',
         'ttbar-allhad': '/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM',
         'ttbar-semilep': '/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM',
         'QCDHT700': '/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM',
